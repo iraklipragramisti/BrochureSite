@@ -1,0 +1,68 @@
+$services-color: rgb(22, 85, 41);
+
+.services-hr {
+  width: 75%;
+  background: $services-color;
+  height: 0.75px;
+  margin-top: 4%;
+  border: $services-color;
+}
+
+.services-content {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.services-header {
+  color: $services-color;
+  text-align: center;
+}
+
+
+.services-left {
+  width: 47%;
+  margin-left: 0;
+  margin-right: 3%;
+
+  h2 {
+    margin-block-start: 0;
+    text-align: center;
+    font-style: oblique;
+    color: $services-color;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.services-right {
+  width: 47%;
+  margin-right: 0;
+  height: 40%;
+}
+
+
+@media (max-width: 1500px){
+  .services-content {
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .services-left {
+    margin: 0;
+  }
+
+  .services-right {
+    width: 75%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .services-left {
+    width: 70%;
+  }
+}

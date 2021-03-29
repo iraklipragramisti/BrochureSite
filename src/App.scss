@@ -1,0 +1,26 @@
+$main-color: rgb(11, 79, 88);
+$dark-green: rgb(29, 110, 29);
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.back-pic {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: url("https://www.nelsonkootenaylake.com/sites/default/files/images/categories/roadbiking_JannekeGuenther.jpg");
+  height: 500px;
+  z-index: -1;
+  background-position-x: center;
+  background-position-y: 35%;
+
+}

@@ -1,0 +1,150 @@
+$main-color: rgba(11, 79, 88, 0.733);
+$dark-green: rgb(29, 110, 29);
+
+
+
+
+.invis-image {
+  height: 400px;
+  width: 100%;
+
+  background: transparent;
+
+}
+
+
+.hr1 {
+  width: 75%;
+  background: $dark-green;
+  height: 1px;
+  margin-top: 4%;
+  border: $dark-green;
+}
+
+.hr2 {
+  color: black;
+  margin-top: 5%;
+}
+
+.welcome-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.dive-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.welcome-left {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.dive-right {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.welcome {
+  margin-block-start: 0;
+  font-style: oblique;
+  color: $dark-green;
+  align-self: center;
+  align-content: center;
+  margin-block-end: 0;
+}
+
+.dive {
+  margin-block-start: 0;
+  font-style: oblique;
+  color: $dark-green;
+  align-self: center;
+  align-content: center;
+  margin-block-end: 0;
+}
+
+.welcome-p {
+  width: 80%;
+  font-style: oblique;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+
+.dive-p {
+  width: 80%;
+  font-style: oblique;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+
+.welcome-img {
+  width: 47%;
+  height: 500px;
+  border-radius: 10px;
+  margin-right: 2%;
+  margin-left: auto;
+  align-self: center;
+}
+
+.dive-img {
+  width: 47%;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 2%;
+  align-self: center;
+}
+
+@media (max-width: 900px){
+  .hr1 {
+    margin-top: 7%;
+  }
+
+  .welcome-img {
+    margin: 0;
+  }
+
+
+  .text {
+    display: none;
+  }
+
+  .welcome-div {
+    flex-direction: column;
+  }
+
+  .dive-div {
+    flex-direction: column;
+  }
+
+  .welcome-img {
+    margin-right: 0;
+    width: 80%;
+    height: 400px;
+  }
+
+  .dive-img {
+    margin-left: 0;
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 570px){
+  .hr1 {
+    margin-top: 12%;
+  }
+}
