@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/BrochureSite/static/css/main.bb13be87.chunk.css",
+    "main.js": "/BrochureSite/static/js/main.bda4ffb0.chunk.js",
+    "main.js.map": "/BrochureSite/static/js/main.bda4ffb0.chunk.js.map",
+    "runtime-main.js": "/BrochureSite/static/js/runtime-main.fed6a8a4.js",
+    "runtime-main.js.map": "/BrochureSite/static/js/runtime-main.fed6a8a4.js.map",
+    "static/css/2.6b560088.chunk.css": "/BrochureSite/static/css/2.6b560088.chunk.css",
+    "static/js/2.514a08ba.chunk.js": "/BrochureSite/static/js/2.514a08ba.chunk.js",
+    "static/js/2.514a08ba.chunk.js.map": "/BrochureSite/static/js/2.514a08ba.chunk.js.map",
+    "static/js/3.39964d8b.chunk.js": "/BrochureSite/static/js/3.39964d8b.chunk.js",
+    "static/js/3.39964d8b.chunk.js.map": "/BrochureSite/static/js/3.39964d8b.chunk.js.map",
+    "index.html": "/BrochureSite/index.html",
+    "static/css/2.6b560088.chunk.css.map": "/BrochureSite/static/css/2.6b560088.chunk.css.map",
+    "static/css/main.bb13be87.chunk.css.map": "/BrochureSite/static/css/main.bb13be87.chunk.css.map",
+    "static/js/2.514a08ba.chunk.js.LICENSE.txt": "/BrochureSite/static/js/2.514a08ba.chunk.js.LICENSE.txt",
+    "static/media/mountain.a58e3497.webp": "/BrochureSite/static/media/mountain.a58e3497.webp",
+    "static/media/road.a410bef4.jpg": "/BrochureSite/static/media/road.a410bef4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fed6a8a4.js",
+    "static/css/2.6b560088.chunk.css",
+    "static/js/2.514a08ba.chunk.js",
+    "static/css/main.bb13be87.chunk.css",
+    "static/js/main.bda4ffb0.chunk.js"
+  ]
+}
